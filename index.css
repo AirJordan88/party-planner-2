@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background: #fff;
+  color: #000;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+}
+
+section {
+  flex: 1;
+}
+
+.event-list li {
+  background-color: #f0f4f8;
+  margin: 1rem 0;
+  padding: 1.75rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  list-style-type: none;
+}
+
+.event-list li:hover {
+  background-color: #dbeafe;
+  transform: translateX(4px);
+}
+
+.event-list a {
+  text-decoration: none;
+  color: #1e293b;
+  font-weight: 600;
+  display: block;
+}
